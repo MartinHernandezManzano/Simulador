@@ -39,7 +39,7 @@ public class Partido {
 
             // Bucle principal: 90 minutos, 3 acciones por minuto
             for (minuto = 1; minuto <= 90; minuto++) {
-                for (int accion = 1; accion <= 3; accion++) {
+                for (int accion = 1; accion <= 5; accion++) {
                     realizarAccion();
                 }
             }
