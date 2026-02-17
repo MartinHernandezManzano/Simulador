@@ -138,6 +138,7 @@ public class Partido {
         } else {
             // Parada
             portero.parar();  // Esto incrementa sus paradas
+            portero.pasar(); //si la para, hace un pase
             escribirEnArchivo("¡PARADÓN de " + portero.getNombre() + " (" + defensor.getNombre() + ")!\n");
 
             // El portero inicia el contraataque: la posesión cambia al defensor
