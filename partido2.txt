@@ -1,0 +1,87 @@
+=== FC Barcelona vs Real Madrid ===
+Comienza el partido. Posesión inicial: Real Madrid
+
+Minuto 2: Pase fallado de Modric (Real Madrid). Cambia la posesión.
+Minuto 4: Pase fallado de Lamine Yamal (FC Barcelona). Cambia la posesión.
+Minuto 5: Pase fallado de Mbappé (Real Madrid). Cambia la posesión.
+Minuto 6: Pase fallado de Cubarsí (FC Barcelona). Cambia la posesión.
+Minuto 7: Pase fallado de Valverde (Real Madrid). Cambia la posesión.
+Minuto 10: Pase fallado de Pedri (FC Barcelona). Cambia la posesión.
+Minuto 11: Pase fallado de Mbappé (Real Madrid). Cambia la posesión.
+Minuto 14: Pase fallado de Raphinha (FC Barcelona). Cambia la posesión.
+Minuto 15: Pase fallado de Carvajal (Real Madrid). Cambia la posesión.
+Minuto 16: Pase fallado de Lamine Yamal (FC Barcelona). Cambia la posesión.
+Minuto 17: Pase fallado de Mbappé (Real Madrid). Cambia la posesión.
+Minuto 20: Pase fallado de Cubarsí (FC Barcelona). Cambia la posesión.
+Minuto 23: Mbappé (Real Madrid) DISPARA... ¡PARADÓN de Joan García (FC Barcelona)!
+Minuto 25: Pase fallado de Koundé (FC Barcelona). Cambia la posesión.
+Minuto 27: Pase fallado de Carvajal (Real Madrid). Cambia la posesión.
+Minuto 29: Pase fallado de Pedri (FC Barcelona). Cambia la posesión.
+Minuto 31: Pase fallado de Rüdiger (Real Madrid). Cambia la posesión.
+Minuto 32: Pase fallado de Lamine Yamal (FC Barcelona). Cambia la posesión.
+Minuto 33: Pase fallado de Modric (Real Madrid). Cambia la posesión.
+Minuto 34: Pase fallado de Raphinha (FC Barcelona). Cambia la posesión.
+Minuto 35: Pase fallado de Mbappé (Real Madrid). Cambia la posesión.
+Minuto 38: Pase fallado de Koundé (FC Barcelona). Cambia la posesión.
+Minuto 38: Pase fallado de Rüdiger (Real Madrid). Cambia la posesión.
+Minuto 40: Pase fallado de Pedri (FC Barcelona). Cambia la posesión.
+Minuto 42: Pase fallado de Rüdiger (Real Madrid). Cambia la posesión.
+Minuto 45: Pedri (FC Barcelona) DISPARA... ¡PARADÓN de Courtois (Real Madrid)!
+Minuto 48: Carvajal (Real Madrid) DISPARA... ¡PARADÓN de Joan García (FC Barcelona)!
+Minuto 51: Pase fallado de Raphinha (FC Barcelona). Cambia la posesión.
+Minuto 51: Pase fallado de Vinicius Jr. (Real Madrid). Cambia la posesión.
+Minuto 53: Pase fallado de Gavi (FC Barcelona). Cambia la posesión.
+Minuto 54: Pase fallado de Valverde (Real Madrid). Cambia la posesión.
+Minuto 57: Pase fallado de Gavi (FC Barcelona). Cambia la posesión.
+Minuto 58: Pase fallado de Carvajal (Real Madrid). Cambia la posesión.
+Minuto 59: Pase fallado de Cubarsí (FC Barcelona). Cambia la posesión.
+Minuto 61: Pase fallado de Carvajal (Real Madrid). Cambia la posesión.
+Minuto 65: Gavi (FC Barcelona) DISPARA... ¡PARADÓN de Courtois (Real Madrid)!
+Minuto 65: Pase fallado de Carvajal (Real Madrid). Cambia la posesión.
+Minuto 67: Pase fallado de Gavi (FC Barcelona). Cambia la posesión.
+Minuto 69: Pase fallado de Vinicius Jr. (Real Madrid). Cambia la posesión.
+Minuto 72: Koundé (FC Barcelona) DISPARA... ¡PARADÓN de Courtois (Real Madrid)!
+Minuto 74: Pase fallado de Vinicius Jr. (Real Madrid). Cambia la posesión.
+Minuto 75: Pase fallado de Pedri (FC Barcelona). Cambia la posesión.
+Minuto 79: Carvajal (Real Madrid) DISPARA... ¡GOOOOL! Carvajal (Real Madrid) marca.
+Minuto 79: Pase fallado de Lamine Yamal (FC Barcelona). Cambia la posesión.
+Minuto 79: Pase fallado de Vinicius Jr. (Real Madrid). Cambia la posesión.
+Minuto 83: Gavi (FC Barcelona) DISPARA... ¡GOOOOL! Gavi (FC Barcelona) marca.
+Minuto 85: Pase fallado de Vinicius Jr. (Real Madrid). Cambia la posesión.
+Minuto 85: Pase fallado de Lamine Yamal (FC Barcelona). Cambia la posesión.
+Minuto 86: Pase fallado de Vinicius Jr. (Real Madrid). Cambia la posesión.
+Minuto 89: Gavi (FC Barcelona) DISPARA... ¡PARADÓN de Courtois (Real Madrid)!
+Minuto 90: Pase fallado de Valverde (Real Madrid). Cambia la posesión.
+Minuto 90: Pase fallado de Gavi (FC Barcelona). Cambia la posesión.
+
+====================================
+=== ESTADÍSTICAS FINALES ===
+====================================
+
+⚽ EQUIPO: FC Barcelona
+================================
+🧤 1. Joan García (FC Barcelona) | Paradas: 7 | Pases: 0
+🛡️ 23. Koundé (FC Barcelona) | Goles: 1 | Pases: 33
+🛡️ 2. Cubarsí (FC Barcelona) | Goles: 0 | Pases: 50
+🎯 8. Pedri (FC Barcelona) | Goles: 0 | Pases: 44
+🎯 6. Gavi (FC Barcelona) | Goles: 1 | Pases: 43
+⚽ 19. Lamine Yamal (FC Barcelona) | Goles: 0 | Pases: 33
+⚽ 11. Raphinha (FC Barcelona) | Goles: 0 | Pases: 44
+================================
+Goles: 2 | Pases: 247 | Paradas: 7
+
+⚽ EQUIPO: Real Madrid
+================================
+🧤 1. Courtois (Real Madrid) | Paradas: 5 | Pases: 0
+🛡️ 2. Carvajal (Real Madrid) | Goles: 1 | Pases: 41
+🛡️ 22. Rüdiger (Real Madrid) | Goles: 1 | Pases: 44
+🎯 10. Modric (Real Madrid) | Goles: 0 | Pases: 34
+🎯 15. Valverde (Real Madrid) | Goles: 0 | Pases: 29
+⚽ 7. Vinicius Jr. (Real Madrid) | Goles: 0 | Pases: 26
+⚽ 9. Mbappé (Real Madrid) | Goles: 0 | Pases: 42
+================================
+Goles: 2 | Pases: 216 | Paradas: 5
+
+====================================
+RESULTADO: 2 - 2
+====================================
