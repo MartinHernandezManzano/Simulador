@@ -6,12 +6,7 @@ public class Portero extends Futbolista implements PuedeParar {
 
     @Override
     public void parar() {
-        if (Futbolista.getRandom().nextInt(100) < 70) {
-            setParadas(getParadas() + 1);
-            System.out.println("🧤 " + getNombre() + " detiene el balón");
-        } else {
-            System.out.println("🥅 Gol - " + getNombre() + " no pudo parar");
-        }
+        setParadas(getParadas() + 1);
     }
 
     @Override

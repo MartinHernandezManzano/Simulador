@@ -9,6 +9,7 @@ public class Equipo {
     private int golesTotales;
     private int pasesTotales;
     private int paradasTotales;
+    private int tirosTotales;
 
     public Equipo(String nombre) {
         this.nombre = nombre;
@@ -16,6 +17,7 @@ public class Equipo {
         this.golesTotales = 0;
         this.pasesTotales = 0;
         this.paradasTotales = 0;
+        this.tirosTotales = 0;
     }
 
     // vamos añadiendo jugadores uno a uno hasta completar los 7
@@ -43,6 +45,9 @@ public class Equipo {
     public int getParadasTotales() {
         return paradasTotales;
     }
+    public int getTirosTotales() {
+        return tirosTotales;
+    }
 
     // recorre todos los jugadores y suma sus estadísticas individuales
     // así mantenemos actualizados los totales del equipo
@@ -50,11 +55,13 @@ public class Equipo {
         golesTotales = 0;
         pasesTotales = 0;
         paradasTotales = 0;
+        tirosTotales = 0;
 
         for (Futbolista j : jugadores) {
             golesTotales += j.getGoles();
             pasesTotales += j.getPases();
             paradasTotales += j.getParadas();
+            tirosTotales += j.getTiros();
         }
     }
 
@@ -71,7 +78,9 @@ public class Equipo {
         sb.append("================================\n");
         sb.append("Goles: ").append(golesTotales);
         sb.append(" | Pases: ").append(pasesTotales);
+        sb.append(" | Tiros: ").append(tirosTotales);
         sb.append(" | Paradas: ").append(paradasTotales).append("\n");
+
         return sb.toString();
     }
 }

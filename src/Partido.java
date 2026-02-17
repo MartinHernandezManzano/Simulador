@@ -107,6 +107,7 @@ public class Partido {
     private void realizarTiro(Equipo atacante, Equipo defensor, boolean esLocal) throws IOException {
         // Elegir tirador (cualquier jugador de campo)
         Futbolista tirador = elegirJugadorCampo(atacante);
+        tirador.setTiros(tirador.getTiros() + 1);
 
         // Buscar portero rival
         Portero portero = (Portero) buscarPortero(defensor);
