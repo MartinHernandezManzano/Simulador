@@ -36,14 +36,16 @@ public class EscritorPartido {
                 " (" + equipo.getNombre() + "). Cambia la posesión.\n");
     }
 
-    public void escribirGol(int minuto, Futbolista tirador, Equipo equipo) throws IOException {
+    public void escribirDisparo(int minuto, Futbolista tirador, Equipo equipo) throws IOException {
         writer.write("Minuto " + minuto + ": " + tirador.getNombre() +
                 " (" + equipo.getNombre() + ") DISPARA... ");
+    }
+
+    public void escribirGol(Futbolista tirador, Equipo equipo) throws IOException {
         writer.write("¡GOOOOL! " + tirador.getNombre() + " (" + equipo.getNombre() + ") marca.\n");
     }
 
-    public void escribirParada(int minuto, Portero portero, Equipo equipo) throws IOException {
-        writer.write("Minuto " + minuto + ": DISPARO... ");
+    public void escribirParada(Portero portero, Equipo equipo) throws IOException {
         writer.write("¡PARADÓN de " + portero.getNombre() + " (" + equipo.getNombre() + ")!\n");
     }
 

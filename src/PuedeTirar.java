@@ -1,3 +1,3 @@
 public interface PuedeTirar {
-    void tirar();
+    boolean tirar(Portero porteroRival);  // true = gol, false = parada
 }

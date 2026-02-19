@@ -4,10 +4,18 @@ public class Defensa extends Futbolista implements PuedeTirar {
         super(nombre, dorsal, equipo, 0, 0, 0);
     }
 
-
     @Override
-    public void tirar(){
+    public boolean tirar(Portero porteroRival) {
         setTiros(getTiros() + 1);
+
+        if (Futbolista.getRandom().nextInt(100) < 30) {
+            setGoles(getGoles() + 1);
+            return true;  // gol
+        } else {
+            porteroRival.parar();    // portero suma parada
+            porteroRival.pasar();     // portero inicia contraataque
+            return false;  // parada
+        }
     }
 
     @Override

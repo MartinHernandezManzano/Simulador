@@ -5,8 +5,17 @@ public class Delantero extends Futbolista implements PuedeTirar {
     }
 
     @Override
-    public void tirar(){
+    public boolean tirar(Portero porteroRival) {
         setTiros(getTiros() + 1);
+
+        if (Futbolista.getRandom().nextInt(100) < 30) {
+            setGoles(getGoles() + 1);
+            return true;
+        } else {
+            porteroRival.parar();
+            porteroRival.pasar();
+            return false;
+        }
     }
 
     @Override

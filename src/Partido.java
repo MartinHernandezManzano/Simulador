@@ -87,33 +87,25 @@ public class Partido {
     // Realiza un tiro a puerta
     private void realizarTiro(Equipo atacante, Equipo defensor, boolean esLocal) throws IOException {
         Futbolista tirador = elegirJugadorCampo(atacante);
-        tirador.setTiros(tirador.getTiros() + 1);
-
         Portero portero = (Portero) buscarPortero(defensor);
-        boolean gol = Futbolista.getRandom().nextInt(100) >= 70;  // 30% gol
+
+        escritor.escribirDisparo(minuto, tirador, atacante);
+        boolean gol = ((PuedeTirar) tirador).tirar(portero);
 
         if (gol) {
-            tirador.setGoles(tirador.getGoles() + 1);
-            escritor.escribirGol(minuto, tirador, atacante);
-            posesionLocal = !esLocal;
-            if (esLocal) {
-                contadorPasesLocal = 0;
-                contadorPasesVisitante = 0;
-            } else {
-                contadorPasesVisitante = 0;
-                contadorPasesLocal = 0;
-            }
+            escritor.escribirGol(tirador, atacante);
         } else {
-            assert portero != null;
-            portero.parar();
-            portero.pasar();
-            escritor.escribirParada(minuto, portero, defensor);
-            posesionLocal = !esLocal;
-            if (esLocal) {
-                contadorPasesLocal = 0;
-            } else {
-                contadorPasesVisitante = 0;
-            }
+            escritor.escribirParada(portero, defensor);
+        }
+
+        // Cambio de posesión y reinicio de contadores
+        posesionLocal = !esLocal;
+        if (esLocal) {
+            contadorPasesLocal = 0;
+            contadorPasesVisitante = 0;
+        } else {
+            contadorPasesVisitante = 0;
+            contadorPasesLocal = 0;
         }
     }
 
