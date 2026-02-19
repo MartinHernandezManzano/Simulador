@@ -2,7 +2,6 @@ import java.io.IOException;
 import java.util.List;
 
 // Clase que gestiona la simulación completa de un partido
-// Ahora sin responsabilidades de escritura
 public class Partido {
     private Equipo local;
     private Equipo visitante;
